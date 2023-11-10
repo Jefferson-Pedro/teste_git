@@ -1,1 +1,20 @@
 primeiro versionamento feito em 10/11/2023
+
+Guia de comandos principais comandos
+
+ Configurar seu usuário na máquina
+git config --global user.name "Seu nome cadastrado no Github"
+git config --global user.email "Seu email do Github"
+Tornar uma pasta “comum” um repositório e vinculá-la a um repositório do github
+git init
+git remote add origin "URL obtida no github"
+Você pode ter uma alternativa à etapa anterior, que é:
+git clone “link do seu repositório”
+este comando vai clonar (ou seja, fazer um donwload inicial) do repositório do github, já criando a pasta sendo um repo local
+Comandos do dia-a-dia
+git status - verifica quais arquivos estão já adicionados ou não no seu controle de versão
+git pull origin master/main - faz o download da versão mais nova dos arquivos do repositório remoto
+git add “nome do arquivo” ou “*” - para adicionar os arquivos no controle de versão
+git rm “nome do arquivo” - remove o arquivo do controle de versão
+git commit “mensagem” - realiza o “checkpoint” para que seus arquivos possam ser transferidos para o repositório remoto
+git push origin master/main - realiza o “upload” dos arquivos
