@@ -17,4 +17,4 @@ git pull origin master/main - faz o download da versão mais nova dos arquivos d
 git add “nome do arquivo” ou “*” - para adicionar os arquivos no controle de versão
 git rm “nome do arquivo” - remove o arquivo do controle de versão
 git commit “mensagem” - realiza o “checkpoint” para que seus arquivos possam ser transferidos para o repositório remoto
-git push origin master/main - realiza o “upload” dos arquivos
+git push origin master/main - realiza o “upload” dos arquivos...
